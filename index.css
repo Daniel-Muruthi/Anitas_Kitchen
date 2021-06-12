@@ -1,0 +1,169 @@
+
+body{
+    display:flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+.page1{
+    background:url("./Assets/backgrounds/landing.jpg");
+    background-repeat:no-repeat;
+    background-size:contain;
+    position:absolute;
+    height:max-content;
+
+}
+.Menubar{
+    display:block;
+    margin:49.4px 0px 0px 100px;
+    height:100px;
+    width:60px;
+    border:2px;
+    color:white;
+}
+.Menubar > div{
+    height:4px;
+    background-color:white;
+    margin:5px 0;
+    border-radius:5px;
+    padding:2px;
+}
+#menuimage{
+    display:flex;
+    justify-content: center;
+
+}
+#logotext{
+    text-align:center;
+    font-size:xx-large;
+    padding:20px 20px 20px 20px;
+}
+.timetable{
+    background-size:cover;
+    position:relative;
+}
+.timetable > #foodtop > .list > .happy{
+    border:1px solid gold;
+    width:500px;
+    height:106px;
+    list-style:none;
+    text-align:center;
+    font-size:xx-large;
+    background-color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-sizing:border-box;
+}
+.timetable > #foodtop >.list > .party{
+    border:1px solid #F15A29;
+    width:500px;
+    height:106px;
+    list-style:none;
+    text-align:center;
+    font-size:xx-large;
+    background-color:#F15A29;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    box-sizing: border-box;
+
+}
+
+.list{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:left;
+    width:100%;
+    margin-bottom:0;
+    margin-left:0;
+    padding-left:0;
+    
+}
+#foodtop{
+    display:flex;
+    flex-direction:row;
+}
+.page2{
+    background-color:white;
+    display:flex;
+    flex-flow:column;
+}
+.Fastfood{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:center;
+}
+.Fastfood> .dessert{
+    display:flex;
+    flex-direction:column;
+    width:fit-content;
+    height:fit-content;
+    border:2px solid white;
+    padding:25px;
+    margin:0;
+    box-shadow:0px 0px 4px 3px grey;
+}
+.Fastfood> .description{
+    border:2px solid white;
+    width:fit-content;
+    padding:20px;
+    text-align:left;
+    align-items:left;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    font-size:x-large;
+}
+.Fastfood > .description > .viewgallery{
+    border:2px solid #F15A29;
+    width:200px;
+    height:fit-content;
+    padding:3px;
+    border-radius:10px;
+    background-color:white;
+    text-align:center;
+}
+.Drinks{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    float:right;
+}
+.Drinks > .cocktail{
+    display:flex;
+    flex-direction:row;
+    width:fit-content;
+    height:fit-content;
+    border:2px solid white;
+    padding:25px;
+    margin:0;
+    box-shadow:0px 0px 4px 3px grey;
+}
+.Drinks > .drinkscription{
+    border:2px solid white;
+    width:fit-content;
+    padding:20px;
+    text-align:right;
+    align-items:right;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    font-size:x-large;
+}
+.Drinks > .drinkscription > .drinkgallery{
+    position:relative;
+    border:2px solid #F15A29;
+    width:200px;
+    height:fit-content;
+    padding:3px;
+    border-radius:10px;
+    background-color:white;
+    text-align:center;
+    left:270px;
+}
