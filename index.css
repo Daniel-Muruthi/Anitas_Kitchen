@@ -1,4 +1,3 @@
-
 body{
     display:flex;
     justify-content: center;
@@ -23,7 +22,7 @@ body{
     color:white;
 }
 .Menubar > div{
-    height:4px;
+    height:3px;
     background-color:white;
     margin:5px 0;
     border-radius:5px;
@@ -47,7 +46,6 @@ body{
     border:1px solid gold;
     width:500px;
     height:106px;
-    list-style:none;
     text-align:center;
     font-size:xx-large;
     background-color:white;
@@ -59,7 +57,7 @@ body{
 .timetable > #foodtop >.list > .party{
     border:1px solid #F15A29;
     width:500px;
-    height:106px;
+    height:104px;
     list-style:none;
     text-align:center;
     font-size:xx-large;
@@ -71,7 +69,56 @@ body{
     box-sizing: border-box;
 
 }
+.timetable > #foodtop >.breakfast{
+    position:relative;
+    text-align:center;
+}
+.timetable > #foodtop >.breakfast > .breakfasttext{
+    position:absolute;
+    text-align:center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size:xx-large;
+    font-style: italic;
+}
+.timetable > #foodtop > .lunch{
+    position:relative;
+    text-align:center;
+}
+.timetable > #foodtop > .lunch >.lunchtext{
+    position:absolute;
+    text-align:center;
+    top: 48.8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size:xx-large;
+    font-style: italic;
+    background-color: grey;
+    width:100%;
+    height:97.9%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    opacity:0.5;
 
+}
+.timetable > #foodtop > .dinner{
+    position:relative;
+    text-align:center;
+}
+.timetable > #foodtop > .dinner > .dinnertext{
+    position:absolute;
+    text-align:center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size:xx-large;
+    font-style: italic;
+}
 .list{
     position:relative;
     display:flex;
