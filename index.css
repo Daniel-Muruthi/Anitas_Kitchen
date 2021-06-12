@@ -1,0 +1,102 @@
+
+body{
+    height:100%;
+    width:100%;
+    
+}
+.page1{
+    background-image:url("./Assets/backgrounds/landing.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:absolute;
+
+}
+.Menubar{
+    display:block;
+    margin:49.4px 0px 0px 100px;
+    height:100px;
+    width:60px;
+    border:2px;
+    color:white;
+}
+.Menubar > div{
+    height:4px;
+    background-color:white;
+    margin:5px 0;
+    border-radius:5px;
+    padding:2px;
+}
+#menuimage{
+    display:flex;
+    justify-content: center;
+
+}
+#logotext{
+    text-align:center;
+    font-size:xx-large;
+    padding:20px 20px 20px 20px;
+}
+.timetable{
+    left:0;
+}
+.timetable > #foodtop > .list > ul > .happy{
+    border:1px solid white;
+    width:730px;
+    height:106px;
+    list-style:none;
+    text-align:center;
+    font-size:xx-large;
+    background-color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-sizing:border-box;
+}
+.timetable > #foodtop >.list > ul > .party{
+    border:5px solid #F15A29;
+    width:730px;
+    height:105px;
+    list-style:none;
+    text-align:center;
+    font-size:xx-large;
+    background-color:#F15A29;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    box-sizing: border-box;
+
+}
+
+.list{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    margin-bottom:0;
+    margin-left:0;
+    padding-left:0;
+    
+}
+#foodtop{
+    /* align-items:center; */
+    width:100%;
+}
+.page2{
+    background-color:white;
+}
+.Fastfood{
+    display:flex;
+    flex-direction:column;
+}
+.Fastfood> .dessert{
+    display:flex;
+    flex-direction:column;
+    width:fit-content;
+    height:fit-content;
+    border:2px solid gold;
+    padding:0;
+    margin:0;
+}
+
