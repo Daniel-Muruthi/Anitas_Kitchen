@@ -2,6 +2,7 @@
 <h3 align="center">A passionate Software Developer from Moringa School</h3>
 
 - 🔭 I’m currently working on [Anita's Kitchen Project]((https://choosealicense.com/licenses/mit/))
+- It is a front-end project for designing the landing page of a Restaurant Website
 
 - 🌱 I’m currently learning **html, css**
 
