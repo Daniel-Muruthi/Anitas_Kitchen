@@ -214,3 +214,104 @@ body{
     text-align:center;
     left:270px;
 }
+.page3{
+    /* align-items:center; */
+    /* padding-top:20px; */
+}
+.page3> .foodmenu{
+    position:absolute;
+    background:url("./Assets/backgrounds/foodsBg.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    width:100%;
+    height:45%;
+    padding:20px 20px 20px 20px;
+    color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border: 2px solid gold;
+    margin-left:auto;
+    margin-right:auto;
+}
+.page3 > .foodmenu > .menulist{
+    background-color:white;
+    width:75%;
+    height:50%;
+}
+.page3 > .foodmenu > .menulist >.foodgallery{
+    border:1px solid black;
+    height:20%;
+    display:flex;
+    justify-content:space-around;
+    align-items:left;
+    font-size:xx-large;
+    text-align:center;
+}
+.page3 > .foodmenu > .menulist >.foodgallery> .FFood{
+    height:100%;
+    width:100%;
+    font-weight:700;
+    color:#F15A29;
+    border:transparent;
+}
+.page3 > .foodmenu > .menulist >.foodgallery> .menudrinks{
+    border:1px solid black;
+    height:100%;
+    width:100%;
+    background-color:grey;
+    opacity:0.6;
+    color:black;
+    font-weight:700;
+}
+.page3 > .foodmenu > .menulist >.foodgallery> .chicken{
+    border:1px solid black;
+    height:100%;
+    width:100%;
+    background-color:grey;
+    opacity:0.6;
+    color:black;
+    font-weight:700;
+}
+.page3 > .foodmenu > .menulist >.foodgallery> .rice{
+    border:1px solid black;
+    height:100%;
+    width:100%;
+    background-color:grey;
+    opacity:0.6;
+    color:black;
+    font-weight:700;
+}
+.page3 > .foodmenu > .menulist >.junkfood{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:79%;
+    border:transparent;
+}
+.page3 > .foodmenu > .menulist >.junkfood > .left{
+    font-size:xx-large;
+    font-weight:bolder;
+    color:#F15A29;
+}
+.page3 > .foodmenu > .menulist >.junkfood > .right{
+    font-size:xx-large;
+    font-weight:bolder;
+    color:#F15A29;
+}
+.page3 > .foodmenu > .menulist >.junkfood > .chickenburger{
+    text-align:center;
+    font-size:x-large;
+    color:#F15A29;
+}
+.page3 > .foodmenu > .menulist >.junkfood > .beefburger{
+    text-align:center;
+    font-size:x-large;
+    color:#F15A29;
+}
+.page3 > .foodmenu > .menulist >.junkfood > .chickenpizza{
+    text-align: center;
+    font-size:x-large;
+    color:#F15A29;
+}
+
