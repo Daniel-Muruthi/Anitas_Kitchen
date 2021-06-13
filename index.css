@@ -155,6 +155,10 @@ body{
     margin:0;
     box-shadow:0px 0px 4px 3px grey;
 }
+.dessertpics{
+    display:flex;
+    flex-direction: column;
+}
 .Fastfood> .description{
     border:2px solid white;
     width:fit-content;
