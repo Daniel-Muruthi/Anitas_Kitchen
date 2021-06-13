@@ -37,6 +37,7 @@ body{
     text-align:center;
     font-size:xx-large;
     padding:20px 20px 20px 20px;
+    color:white;
 }
 .timetable{
     background-size:cover;
@@ -215,17 +216,16 @@ body{
     left:270px;
 }
 .page3{
-    /* align-items:center; */
-    /* padding-top:20px; */
+    align-items:center;
 }
 .page3> .foodmenu{
-    position:absolute;
+    position:relative;
     background:url("./Assets/backgrounds/foodsBg.jpg");
     background-repeat:no-repeat;
     background-position:center;
     width:100%;
-    height:45%;
-    padding:20px 20px 20px 20px;
+    height:max-content;
+    padding:200px 20px 200px 20px;
     color:black;
     display:flex;
     justify-content:center;
@@ -288,6 +288,7 @@ body{
     align-items:center;
     height:79%;
     border:transparent;
+    padding:60px 20px 20px 20px;
 }
 .page3 > .foodmenu > .menulist >.junkfood > .left{
     font-size:xx-large;
@@ -314,4 +315,63 @@ body{
     font-size:x-large;
     color:#F15A29;
 }
+.page3-5{
+    /* border:2px solid black;
+    height:100px;
+    align-items:center; */
+}
+.page3-5 > .clientelle{
+    position:relative;
+    border:2px solid blue;
+    height:500px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin:20px auto;
+    align-self:center;
+    padding:20px 20px 20px 20px;
+}
+.page3-5 > .clientelle > .humans{
+    background-color:white;
+    height:60%;
+    width:75%;
+    background-position:center;
+    position:relative;
+    align-self:center;
+    box-shadow:0px 0px 4px 3px grey;
+    display:flex;
+}
+.page3-5 > .clientelle > .humans > .customers{
+    border:2px solid white;
+    width:60%;
+    height:98%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.page3-5 > .clientelle > .humans > .customers >.clients {
+    text-align:center;
+    font-size:large;
+}
+.page3-5 > .clientelle > .humans > .customers > .clientprofiles{
+    display:inline-flex;
+    justify-content:space-around;
+    width:60%;
+}
+.page3-5 > .clientelle > .humans > .menudetails{
+    border-left:2px dashed grey;
+    width:50%;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:x-large;
 
+}
+.clientheader , .menutitle{
+    color:#F15A29
+}
+.left1,.right1{
+    color:#F15A29;
+}
