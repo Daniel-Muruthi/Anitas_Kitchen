@@ -3,6 +3,7 @@ body{
     justify-content: center;
     margin-left:auto;
     margin-right:auto;
+    align-self:center;
     
 }
 .page1{
@@ -37,13 +38,13 @@ body{
     text-align:center;
     font-size:xx-large;
     padding:20px 20px 20px 20px;
+    color:white;
 }
 .timetable{
     background-size:cover;
     position:relative;
 }
 .timetable > #foodtop > .list > .happy{
-    border:1px solid gold;
     width:500px;
     height:106px;
     text-align:center;
@@ -155,6 +156,10 @@ body{
     margin:0;
     box-shadow:0px 0px 4px 3px grey;
 }
+.dessertpics{
+    display:flex;
+    flex-direction: column;
+}
 .Fastfood> .description{
     border:2px solid white;
     width:fit-content;
@@ -215,22 +220,20 @@ body{
     left:270px;
 }
 .page3{
-    /* align-items:center; */
-    /* padding-top:20px; */
+    align-items:center;
 }
 .page3> .foodmenu{
-    position:absolute;
+    position:relative;
     background:url("./Assets/backgrounds/foodsBg.jpg");
     background-repeat:no-repeat;
     background-position:center;
     width:100%;
-    height:45%;
-    padding:20px 20px 20px 20px;
+    height:max-content;
+    padding:200px 20px 200px 20px;
     color:black;
     display:flex;
     justify-content:center;
     align-items:center;
-    border: 2px solid gold;
     margin-left:auto;
     margin-right:auto;
 }
@@ -288,6 +291,7 @@ body{
     align-items:center;
     height:79%;
     border:transparent;
+    padding:60px 20px 20px 20px;
 }
 .page3 > .foodmenu > .menulist >.junkfood > .left{
     font-size:xx-large;
@@ -314,4 +318,158 @@ body{
     font-size:x-large;
     color:#F15A29;
 }
+.page3-5{
+    /* border:2px solid black;
+    height:100px;
+    align-items:center; */
+}
+.page3-5 > .clientelle{
+    position:relative;
+    height:500px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin:20px auto;
+    align-self:center;
+    padding:20px 20px 20px 20px;
+}
+.page3-5 > .clientelle > .humans{
+    background-color:white;
+    height:60%;
+    width:75%;
+    background-position:center;
+    position:relative;
+    align-self:center;
+    box-shadow:0px 0px 4px 3px grey;
+    display:flex;
+}
+.page3-5 > .clientelle > .humans > .customers{
+    border:2px solid white;
+    width:60%;
+    height:98%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.page3-5 > .clientelle > .humans > .customers >.clients {
+    text-align:center;
+    font-size:large;
+}
+.page3-5 > .clientelle > .humans > .customers > .clientprofiles{
+    display:inline-flex;
+    justify-content:space-around;
+    width:60%;
+}
+.page3-5 > .clientelle > .humans > .menudetails{
+    border-left:2px dashed grey;
+    width:50%;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:x-large;
 
+}
+.clientheader , .menutitle{
+    color:#F15A29
+}
+.left1,.right1{
+    color:#F15A29;
+}
+.page4{
+    align-items: center;
+    position:absolute;
+    height:606px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    padding-bottom: 80px;
+}
+.tomatoes{
+    width:100%;
+    height:100%;
+}
+.subscribe{
+    border:2px solid #F15A29 ;
+    width:90.1%;
+    height:301px;
+    background-color:#F15A29;
+}
+.page4background{
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.tomatoimg{
+    background:url("./Assets/backgrounds/subscribe.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    width:100%;
+    height:301px;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    color:white;  
+    align-items: center;
+}
+.email{
+    font-size:xx-large;
+    font-weight:bolder
+}
+.emailbox{
+    display:flex;
+    justify-content: space-around;
+}
+.youremail{
+    border:2px solid transparent;
+    width:350px;
+    height:fit-content;
+    background-color: grey;
+    opacity:0.4;
+    font-weight:bold;
+    border-radius: 7px;
+    font-size:large;
+}
+.emailsubscribe{
+    border:2px solid #F15A29;
+    width:150px;
+    height:fit-content;
+    background-color:#F15A29;
+    text-align:center;
+    border-radius: 7px;
+    font-size:large;
+    font-weight:bold;
+}
+.subscribe{
+    align-items:center;
+    justify-content: center;
+}
+.menuicon{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.menuword{
+    font-size: xx-large;
+    color:white;
+}
+.restaurantmotto{
+    font-size:x-large;
+    color:white;
+    text-align: center;
+}
+.socials{
+    display:flex;
+    width:270px;
+    justify-content: space-around;
+    margin-left:auto;
+    margin-right:auto;
+}
+.copyright{
+    font-size: x-large;
+    color: white;
+    text-align:center;
+}
