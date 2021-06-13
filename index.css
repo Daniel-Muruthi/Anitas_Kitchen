@@ -411,4 +411,33 @@ body{
     display:flex;
     justify-content: center;
     color:white;  
+    align-items: center;
+}
+.email{
+    font-size:xx-large;
+    font-weight:bolder
+}
+.emailbox{
+    display:flex;
+    justify-content: space-around;
+}
+.youremail{
+    border:2px solid white;
+    width:350px;
+    height:fit-content;
+    background-color: grey;
+    opacity:0.4;
+    font-weight:bold;
+    border-radius: 7px;
+    font-size:large;
+}
+.emailsubscribe{
+    border:2px solid white;
+    width:150px;
+    height:fit-content;
+    background-color:#F15A29;
+    text-align:center;
+    border-radius: 7px;
+    font-size:large;
+    font-weight:bold;
 }
