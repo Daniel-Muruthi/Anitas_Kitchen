@@ -44,7 +44,6 @@ body{
     position:relative;
 }
 .timetable > #foodtop > .list > .happy{
-    border:1px solid gold;
     width:500px;
     height:106px;
     text-align:center;
@@ -230,7 +229,6 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    border: 2px solid gold;
     margin-left:auto;
     margin-right:auto;
 }
@@ -322,7 +320,6 @@ body{
 }
 .page3-5 > .clientelle{
     position:relative;
-    border:2px solid blue;
     height:500px;
     width:100%;
     display:flex;
@@ -377,13 +374,13 @@ body{
 }
 .page4{
     align-items: center;
-    border: 2px solid green;
     position:absolute;
     height:606px;
     width:100%;
     display:flex;
     justify-content:center;
     flex-direction:column;
+    padding-bottom: 80px;
 }
 .tomatoes{
     width:100%;
@@ -440,4 +437,34 @@ body{
     border-radius: 7px;
     font-size:large;
     font-weight:bold;
+}
+.subscribe{
+    align-items:center;
+    justify-content: center;
+}
+.menuicon{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.menuword{
+    font-size: xx-large;
+    color:white;
+}
+.restaurantmotto{
+    font-size:x-large;
+    color:white;
+    text-align: center;
+}
+.socials{
+    display:flex;
+    width:270px;
+    justify-content: space-around;
+    margin-left:auto;
+    margin-right:auto;
+}
+.copyright{
+    font-size: x-large;
+    color: white;
+    text-align:center;
 }
